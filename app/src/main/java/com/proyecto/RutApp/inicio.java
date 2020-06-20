@@ -119,12 +119,13 @@ public class inicio extends AppCompatActivity {
         String di1 = Objects.requireNonNull(dataSnapshot.child("Kind").getValue()).toString();
         Toast.makeText(inicio.this, di1,Toast.LENGTH_SHORT).show();
         String di2="Driver";
+        String di3="User";
         if (di1.equals(di2)) {
 
             Intent i = new Intent(inicio.this, MapsdriverFragment.class);
             startActivity(i);
         }
-       else {
+       else if (di1.equals(di3)){
             Intent i = new Intent(inicio.this, Mapsusers.class);
             startActivity(i);
         }
