@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.proyecto.RutApp.registroDriver">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingTop="10dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="10dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="189dp">
+        <TextView
+            android:id="@+id/textView2_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Registro Conductor"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+        <EditText
+            android:id="@+id/nameC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape"
+            android:backgroundTint="#1B222E"
+            android:gravity="left"
+            android:hint="Nombre completo"
+            android:inputType="text"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#BABABA"
+            android:textSize="20sp" />
+        <EditText
+            android:id="@+id/phoneC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape"
+            android:backgroundTint="#1B222E"
+            android:gravity="left"
+            android:hint="Celular"
+            android:inputType="phone"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#BABABA"
+            android:textSize="20sp" />
+        <EditText
+            android:id="@+id/passwordC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape"
+            android:backgroundTint="#1B222E"
+            android:gravity="left"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#BABABA"
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/emailC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape"
+            android:backgroundTint="#1B222E"
+            android:gravity="left"
+            android:hint="Correo"
+            android:inputType="textEmailAddress"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#BABABA"
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/passwordC1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape"
+            android:backgroundTint="#1B222E"
+            android:gravity="left"
+            android:hint="Confirmar contraseña"
+            android:inputType="textPassword"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#BABABA"
+            android:textSize="20sp"
+            android:autofillHints="" />
+        <EditText
+            android:id="@+id/marcaV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shape"
+            android:backgroundTint="#1B222E"
+            android:gravity="left"
+            android:hint="Marca Vehiculo"
+            android:inputType="text"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#BABABA"
+            android:textSize="20sp" />
+        <EditText
+            android:id="@+id/matriculaV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape"
+            android:backgroundTint="#1B222E"
+            android:gravity="left"
+            android:hint="Matricula Vehiculo"
+            android:inputType="text"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#BABABA"
+            android:textSize="20sp" />
+        <EditText
+            android:id="@+id/numeroPuestos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape"
+            android:backgroundTint="#1B222E"
+            android:gravity="left"
+            android:hint="Numero de puestos disponibles "
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#BABABA"
+            android:textSize="20sp" />
+        <EditText
+            android:id="@+id/fechaS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape"
+            android:backgroundTint="#1B222E"
+            android:gravity="left"
+            android:hint="Fecha de vencimiento SOAT"
+            android:inputType="datetime"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#BABABA"
+            android:textSize="20sp" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/bregistrarC"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="@font/black_ops_one"
+            android:text="Registrar"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#1B222E"
+            android:textSize="20sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1026740537821",
+    "firebase_url": "https://rutapp-19ed8.firebaseio.com",
+    "project_id": "rutapp-19ed8",
+    "storage_bucket": "rutapp-19ed8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026740537821:android:ab7bd9c159ab2208614e34",
+        "android_client_info": {
+          "package_name": "com.proyecto.RutApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1026740537821-h6gjubli37m0r4br8aje95cbmptj948j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2tAjmqMnnnMXKNkUBtsbhLEq_K5y6wsQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1026740537821-h6gjubli37m0r4br8aje95cbmptj948j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
